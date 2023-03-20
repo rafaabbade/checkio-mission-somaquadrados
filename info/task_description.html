@@ -1,16 +1,15 @@
 <!-- Describe task in general -->
 
 <p>
-    Crie uma função que receba dois números inteiros como parâmetros e retorne a soma desses números.
-</p>
+Escreva uma função que receba uma lista de números e retorne a soma dos quadrados desses números.</p>
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada: </strong> Dois números inteiros a e b.
+    <strong>Entrada: </strong> A função deve receber uma lista de números inteiros.
 </p>
 
 <p>
-    <strong>Saída: </strong> Um número inteiro, que é a soma de a e b. 
+    <strong>Saída: </strong> A função deve retornar um número inteiro, correspondente à soma dos quadrados dos elementos da lista.
 </p>
 
 
@@ -25,9 +24,10 @@
 countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
-<pre class="brush: python">soma(2,3) == 5
-soma(-1,5) == 4
-soma(0,0) == 0
+<pre class="brush: python">
+soma_quadrados([1, 2, 3, 4, 5]) => 55
+soma_quadrados([0, 1, 2]) => 5
+soma_quadrados([3]) => 9
 </pre>
 {% endif %}
 </div>
